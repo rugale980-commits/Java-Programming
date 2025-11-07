@@ -1,0 +1,11 @@
+// Thread application
+class ThreadDemo2
+{
+    public static void main(String A[])
+    {
+        System.out.println("Inside main Method");
+        Thread tobj = Thread.currentThread();
+        String name = tobj.getName();
+        System.out.println("Name of current is thread is : "+name);
+    }
+}
